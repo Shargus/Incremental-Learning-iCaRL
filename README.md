@@ -10,4 +10,7 @@ The main focus is on the **iCaRL** framework, which makes use of the techniques 
 Subsequently some variations of the original iCaRL algorithm are proposed that attempt to tackle such issues, and their effectiveness is verified. For a fair comparison, tests are performed on the **CIFAR-100 dataset**, as used in the original iCaRL paper. Eventually, the proposed extensions of iCaRL lead to a model achieving a better accuracy than iCaRL on CIFAR-100.
 
 ## User guide
-- 
+- **Baselines**: implementation of Finetuning, Learning-without-Forgetting, iCaRL
+- **Ablation study on classifiers**: implementation of iCaRL with four different classifiers for the prediction step (K-nearest neighbors, support vector machines, bias correction layer, cosine normalization layer)
+- **Ablation study on losses**: implementation of iCaRL with different classification losses (cross-entropy, binary cross-entropy, mean squared error) and distillation losses (binary cross-entropy, mean squared error, mean absolute error, temperature softmax)
+- **Proposals**: proposed variants for the iCaRL framework, namely image augmentation techniques (TenCrop, sample pairing, PatchShuffle, Random Erasing, AutoAugment) and oversampling techniques (SMOTE, random oversampling)
