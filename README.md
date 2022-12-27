@@ -14,3 +14,4 @@ Subsequently some variations of the original iCaRL algorithm are proposed that a
 - **Ablation study on classifiers**: implementation of iCaRL with four different classifiers for the prediction step (K-nearest neighbors, support vector machines, bias correction layer, cosine normalization layer)
 - **Ablation study on losses**: implementation of iCaRL with different classification losses (cross-entropy, binary cross-entropy, mean squared error) and distillation losses (binary cross-entropy, mean squared error, mean absolute error, temperature softmax)
 - **Proposals**: proposed variants for the iCaRL framework, namely image augmentation techniques (TenCrop, sample pairing, PatchShuffle, Random Erasing, AutoAugment) and oversampling techniques (SMOTE, random oversampling)
+- **Report.pdf**: report for the project, \w results
